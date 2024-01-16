@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background: #080e1e;
+  font-family: "Poppins", sans-serif;
+}
+
+.title-after-before {
+  position: relative;
+  text-align: center;
+}
+
+.title-after-before::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: -30%;
+  width: 160%;
+  height: 3px;
+  background: #a9adb8;
+}
+
+.title-after-before::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 10%;
+  width: 80%;
+  height: 3px;
+  background: #fec544;
+}
+
+.icon-box:hover .icon-box-image {
+  filter: none;
+  color: #fec544;
+}
+
+.icon-box:hover .icon-box-title {
+  color: #fec544;
+}
+
+.icon-box:hover .icon-box-image-holder {
+  border: 1px solid #fec544;
+}
+
+.icon-box-image,
+.icon-box-title,
+.icon-box-image-holder {
+  transition: all 300ms ease-in-out;
+}
+
+.resume-box-title {
+  position: relative;
+}
+
+.resume-box-title::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #101624;
+  border: 1px solid #232935;
+  left: -50px;
+  top: 10px;
+  border-radius: 50%;
+  transition: all 300ms ease-in-out;
+}
+
+.resume-box:hover .resume-box-title::before {
+  background: #fec544;
+}
+
+.portfolio-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.portfolio-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: all 300ms ease-in-out;
+}
+
+.portfolio-texts {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  transition: all 300ms ease-in-out;
+  color: white;
+  opacity: 0;
+}
+
+.portfolio-box:hover .portfolio-texts {
+  opacity: 1;
+}
+
+.portfolio-box:hover .portfolio-image {
+  scale: 1.1;
+}
