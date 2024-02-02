@@ -48,7 +48,7 @@ export default function HomePage() {
 
           <div className="flex flex-col lg:flex-row gap-5 my-5">
             <motion.img
-              src="/src/assets/about.jpg"
+              src="assets/about.jpg"
               initial={{ x: -50, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: true }}
@@ -110,7 +110,7 @@ export default function HomePage() {
             >
               <IconBox
                 title="Sketches"
-                icon="/src/assets/icon1.png"
+                icon="assets/icon1.png"
                 desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi earum quas porro eius ullam!"
               />
             </motion.dev>
@@ -122,7 +122,7 @@ export default function HomePage() {
             >
               <IconBox
                 title="UI/UX Design"
-                icon="/src/assets/icon2.png"
+                icon="assets/icon2.png"
                 desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi earum quas porro eius ullam!"
               />
             </motion.dev>
@@ -135,7 +135,7 @@ export default function HomePage() {
             >
               <IconBox
                 title="Product Design"
-                icon="/src/assets/icon3.png"
+                icon="assets/icon3.png"
                 desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi earum quas porro eius ullam!"
               />
             </motion.dev>
@@ -147,7 +147,7 @@ export default function HomePage() {
             >
               <IconBox
                 title="App Design"
-                icon="/src/assets/icon4.png"
+                icon="assets/icon4.png"
                 desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi earum quas porro eius ullam!"
               />
             </motion.dev>
@@ -160,7 +160,7 @@ export default function HomePage() {
             >
               <IconBox
                 title="Motion Graphics"
-                icon="/src/assets/icon5.png"
+                icon="assets/icon5.png"
                 desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi earum quas porro eius ullam!"
               />
             </motion.dev>
@@ -173,7 +173,7 @@ export default function HomePage() {
             >
               <IconBox
                 title="Responsive Design"
-                icon="/src/assets/icon6.png"
+                icon="assets/icon6.png"
                 desc="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium commodi earum quas porro eius ullam!"
               />
             </motion.dev>
@@ -388,7 +388,7 @@ export default function HomePage() {
           >
             <PortfolioCard
               title="Sketches"
-              image="/src/assets/portfolio1.jpg"
+              image="assets/portfolio1.jpg"
               category="Web Design"
             />
           </motion.dev>
@@ -401,7 +401,7 @@ export default function HomePage() {
           >
             <PortfolioCard
               title="UI/UX Design"
-              image="/src/assets/portfolio2.jpg"
+              image="assets/portfolio2.jpg"
               category="Web Design"
             />
           </motion.dev>
@@ -414,7 +414,7 @@ export default function HomePage() {
           >
             <PortfolioCard
               title="Product Design"
-              image="/src/assets/portfolio3.jpg"
+              image="assets/portfolio3.jpg"
               category="Web Design"
             />
           </motion.dev>
@@ -427,7 +427,7 @@ export default function HomePage() {
           >
             <PortfolioCard
               title="App Design"
-              image="/src/assets/portfolio4.jpg"
+              image="assets/portfolio4.jpg"
               category="Web Design"
             />
           </motion.dev>
@@ -439,7 +439,7 @@ export default function HomePage() {
           >
             <PortfolioCard
               title="Motion Graphics"
-              image="/src/assets/portfolio5.jpg"
+              image="assets/portfolio5.jpg"
               category="Web Design"
             />
           </motion.dev>
@@ -451,7 +451,7 @@ export default function HomePage() {
           >
             <PortfolioCard
               title="Responsive Design"
-              image="/src/assets/portfolio6.jpg"
+              image="assets/portfolio6.jpg"
               category="Web Design"
             />
           </motion.dev>
@@ -527,19 +527,19 @@ export default function HomePage() {
 
               <ContactWay
                 title="Email"
-                icon="/src/assets/envelope-paper.svg"
+                icon="assets/envelope-paper.svg"
                 firstInfo="soafery@gmail.com"
                 secondInfo="soafery@gmail.com"
               />
               <ContactWay
                 title="Phone"
-                icon="/src/assets/envelope-paper.svg"
+                icon="assets/envelope-paper.svg"
                 firstInfo="0919 539 9423"
                 secondInfo="0912 345 6789"
               />
               <ContactWay
                 title="Address"
-                icon="/src/assets/envelope-paper.svg"
+                icon="assets/envelope-paper.svg"
                 firstInfo="Iran, Kurdistan, Marivan"
                 secondInfo="Ebdata Blvd"
               />

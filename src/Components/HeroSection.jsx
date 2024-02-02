@@ -20,7 +20,7 @@ export default function HeroSection() {
         </div>
 
         <div className="hidden lg:col-span-6 lg:flex ">
-          <img src="/src/assets/hero-img.jpg" />
+          <img src="assets/hero-img.jpg" />
         </div>
       </div>
     </>
