@@ -1,9 +1,5 @@
-# React + Vite
+A simple landing page. created by React, and for animations, it uses Framer Motion. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+an screenshot of the main page
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# personal-landing-page
+![landing-page-screenshot](https://github.com/fariidlotfi/personal-landing-page/assets/138003177/da5c63f0-26b2-4708-aead-eb6217458702)
